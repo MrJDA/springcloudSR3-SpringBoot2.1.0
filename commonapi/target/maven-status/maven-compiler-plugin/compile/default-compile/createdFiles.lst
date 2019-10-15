@@ -1,0 +1,4 @@
+com\oocl\commonapi\clients\user_client\UserClient.class
+com\oocl\commonapi\entities\User.class
+com\oocl\commonapi\fallback_factory\user_fallback_factory\UserFallbackFactory$1.class
+com\oocl\commonapi\fallback_factory\user_fallback_factory\UserFallbackFactory.class

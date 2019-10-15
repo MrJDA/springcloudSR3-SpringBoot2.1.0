@@ -1,0 +1,11 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: user-service-provider
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7071.com:7071/eureka/,http://eureka7072.com:7071/eureka/
+  instance:
+    prefer-ip-address: true

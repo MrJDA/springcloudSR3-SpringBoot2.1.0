@@ -1,0 +1,14 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: feign-user-consumer
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://eureka7071.com:7071/eureka/,http://eureka7072.com:7071/eureka/
+feign:
+  hystrix:
+    enabled: true

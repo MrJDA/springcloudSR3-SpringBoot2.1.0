@@ -1,0 +1,24 @@
+server:
+  port: 9010
+eureka:
+  instance:
+    instance-id: message-service
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://eureka7071.com:7071/eureka/,http://eureka7072.com:7071/eureka/
+spring:
+  application:
+    name: message-service
+  rabbitmq:
+    #    port: 15672
+    username: guest
+    password: guest
+    addresses: 127.0.0.1
+    virtual-host: /
+    port: 5672
+    cloud:
+      bus:
+        enabled: true
+      trace:
+        enabled: true

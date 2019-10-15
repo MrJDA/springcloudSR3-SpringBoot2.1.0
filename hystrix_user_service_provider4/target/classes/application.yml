@@ -1,0 +1,18 @@
+server:
+  port: 9004
+spring:
+  application:
+    name: user-service-provider
+eureka:
+  instance:
+    hostname: hystrix-user-service-provider9004
+    prefer-ip-address: true
+    instance-id: hystrix-user-service-provider9004
+  client:
+    service-url:
+      defaultZone: http://eureka7071.com:7071/eureka/,http://eureka7072.com:7072/eureka
+info:
+  app.name: dept-service-hystrix-9004
+  company.name: www.baidu.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
