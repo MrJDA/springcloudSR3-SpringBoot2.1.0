@@ -40,7 +40,7 @@
         <mysql.version>8.0.13</mysql.version>
         <durid.version>1.1.10</durid.version>
         <mybatis-boot.version>1.3.0</mybatis-boot.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <spring-cloud2019-api.version>1.0-SNAPSHOT</spring-cloud2019-api.version>
         <spring-hot-load.version>1.2.0.RELEASE</spring-hot-load.version>
         <lombok.version>1.18.2</lombok.version>
